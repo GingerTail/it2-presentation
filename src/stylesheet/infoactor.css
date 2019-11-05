@@ -1,0 +1,12 @@
+.actor-container{
+    position:absolute;
+    color:white;
+    max-width:800px;
+    height:100vh;
+    top:0%;
+    left:35%;
+    background-color: grey;
+    padding:2rem;   
+    border-radius:3px;
+    z-index: 1;
+}

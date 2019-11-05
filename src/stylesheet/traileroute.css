@@ -1,0 +1,11 @@
+#trailer{
+    position: absolute;
+    width:100%;
+    top:0%
+
+}
+#trailer iframe{
+    width:100%;
+    min-height: 100vh;
+z-index: 1;
+}
