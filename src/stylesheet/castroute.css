@@ -64,6 +64,25 @@
 
 .box-info{
     background-color: rgba(80, 80, 80, 0.233);
-
-      
+   
 }
+
+.bg-cast-small{
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    min-height:400px;
+    text-align: left;
+    padding-left:5rem;
+    padding-right:5rem;
+    padding-top:2rem;
+    padding-bottom:2.5rem;
+}
+
+.text-cast-small{
+    background-color:rgba(0, 0, 0, 0.671);
+    margin-top:2.5rem;
+    padding: 1rem;
+    border-radius:4px
+}
+

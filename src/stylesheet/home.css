@@ -4,7 +4,6 @@ body{
 }
 
 .background{
-    background-image: url("https://wallpapersite.com/images/pages/pic_w/9111.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position:absolute;
@@ -15,13 +14,36 @@ body{
     background-color:rgba(0, 0, 0, 0.548);
     padding:2rem;
     border: 1px solid rgb(122, 28, 28);
-    border-radius:3px
+    border-radius:3px;
+    overflow: hidden;
 }
+
+.baloon{
+    position: absolute;
+    left:11.5%;
+    top:15%;
+}
+.baloon img{
+        animation-duration: 2s;
+        animation-name: baloon;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+}
+@keyframes baloon{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
 .gif-bg{
     width:100%;
     background-image: url("http://giphygifs.s3.amazonaws.com/media/OKYuALyOExdU4/giphy.gif");
     background-color: black;
-    background-size: center;
+    background-size:  contain;
     background-repeat: repeat;
     height:100vh;
     opacity: 0.3;

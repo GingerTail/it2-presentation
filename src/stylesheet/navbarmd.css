@@ -1,0 +1,18 @@
+.navbar-container{
+    width:100%;
+    background-color: black;
+}
+
+h1{
+    color: red;
+}
+
+.text-navbar{
+    margin-top:0.5rem;
+}
+p{
+    color: #eee;
+    margin-right:1rem;
+ 
+    display: inline;
+}
