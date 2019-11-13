@@ -52,7 +52,7 @@ export default class Home extends Component {
         </div>
         <Navbarmd/>
            <Route exact path="/Plot" component={ModalPlot}/>
-     
+      <div className="gif-bg"></div>
            <Route exact path="/Cast" component={CastRoute}/>          
             <Route exact path="/Trailer" component={TrailerRoute}/>
       </Router>
