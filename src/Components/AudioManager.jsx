@@ -8,7 +8,7 @@ export default class AudioManager extends React.Component {
 
         <Sound
           url={rainEffect}
-          volume={20}
+          volume={60}
           loop="true"
           playStatus={Sound.status.PLAYING}
           playFromPosition={300 /* in milliseconds */}

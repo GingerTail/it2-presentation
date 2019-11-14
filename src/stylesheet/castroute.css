@@ -6,8 +6,6 @@
     top:0%;
     background-color:black;
     background-repeat: no-repeat;
-    border: 1px solid rgb(122, 28, 28);
-    border-radius:3px;
     background-image: url("https://stmed.net/sites/default/files/it-%282017%29-wallpapers-29654-1883834.png");
     background-repeat: no-repeat;
     background-size:cover;
@@ -71,18 +69,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(100%);
-    min-height:400px;
+    min-height:100vh;
     text-align: left;
-    padding-left:5rem;
-    padding-right:5rem;
-    padding-top:2rem;
-    padding-bottom:2.5rem;
+    position: relative;
 }
 
 .text-cast-small{
-    background-color:rgba(0, 0, 0, 0.671);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 31%, rgba(255,255,255,0) 100%);
     margin-top:2.5rem;
-    padding: 1rem;
+    padding: 2rem;
     border-radius:4px
 }
 

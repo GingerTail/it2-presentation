@@ -4,24 +4,23 @@ body{
 }
 
 .background{
-    background-size: cover;
-    background-repeat: no-repeat;
     position:absolute;
     color:white;
     width:100%;
     height:100vh;
     top:0%;
     background-color:rgba(0, 0, 0, 0.548);
-    padding:2rem;
-    border: 1px solid rgb(122, 28, 28);
-    border-radius:3px;
     overflow: hidden;
+    z-index: 0;
 }
 
 .baloon{
     position: absolute;
-    left:11.5%;
-    top:15%;
+    width:100%;
+  z-index: 1;
+}
+.baloon img{
+    width:100%;
 }
 .baloon img{
         animation-duration: 2s;
@@ -53,7 +52,7 @@ body{
     position: absolute;
     top:8%;
     left:0%;
-    z-index: 100;
+    z-index: 2;
     
 }
 #logo img{

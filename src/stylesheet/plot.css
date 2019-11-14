@@ -7,8 +7,6 @@
     background-color:rgba(0, 0, 0, 0.548);
     background-image: url("https://images.wired.it/wp-content/uploads/2019/09/05142553/pennywise_bill_skarsgard_it_capitolo_due.jpg");
     padding:2rem;
-    border: 1px solid rgb(122, 28, 28);
-    border-radius:3px
 }
 #plot-text{
     max-width:800px;
