@@ -37,6 +37,7 @@
     height:100vh;
     filter:brightness(60%) grayscale(100%);
     transition: filter 1s;
+    margin-right:0.5rem;
 }
 .actor-img:hover{
  filter: brightness(100%) grayscale(50%);
@@ -78,6 +79,16 @@
     background: linear-gradient(0deg, rgba(0,0,0,1) 31%, rgba(255,255,255,0) 100%);
     margin-top:2.5rem;
     padding: 2rem;
-    border-radius:4px
+    border-radius:4px;
+    position: absolute;
+    bottom:0%
+}
+
+.cast-modal-container{
+    position: absolute;
+    bottom:0%;
+    padding:4rem;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 31%, rgba(255,255,255,0) 100%);
+    z-index: 101;
 }
 

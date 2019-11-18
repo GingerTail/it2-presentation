@@ -32,13 +32,17 @@ export default class Home extends Component {
       <Router>
         <AudioManager/>
         <Route exact path="/" render={() =>
-        <div className="background animated fadeIn" style={{backgroundImage: `url("${backgroundHome}")`}}>
+        <>
+        <div className="background animated fadeIn d-none d-xl-block " style={{backgroundImage: `url("${backgroundHome}")`}}>
         <div className="baloon">
           <img src={redBaloon} alt="redBaloon"/>
         </div>
           <img src={backgroundHome} alt="bg-home" width="100%"/>
-
           </div>
+          <div className="background-small animated fadeIn d-xl-none">
+          <img src="https://stmed.net/sites/default/files/it-%282017%29-wallpapers-29654-1883834.png" />
+          </div>
+          </>
       }/>
  
         
